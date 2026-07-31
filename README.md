@@ -1,16 +1,95 @@
-# React + Vite
+# Cambridge Rentals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built as part of the **Professional Project – Cambridge Rentals** course on Coursera. This project was created to refresh and reinforce core React concepts while building a practical rental listings application.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was developed while following the **Professional Project – Cambridge Rentals** module from the **React Basics and Initial Projects** course on Coursera.
 
-## React Compiler
+The main goal was to revisit fundamental React concepts, including:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Components
+* Props
+* State management
+* Event handling
+* Conditional rendering
+* Lists and keys
+* React Hooks
+* Project structure and best practices
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+* Node.js (v18 or later recommended)
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/cambridge-rentals.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd cambridge-rentals
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+## Available Scripts
+
+| Command           | Description                           |
+| ----------------- | ------------------------------------- |
+| `npm run dev`     | Starts the development server         |
+| `npm run build`   | Builds the project for production     |
+| `npm run preview` | Previews the production build locally |
+| `npm run lint`    | Runs ESLint                           |
+
+## Learning Objectives
+
+This project was created to:
+
+* Refresh React fundamentals
+* Practice component-based architecture
+* Improve familiarity with the React ecosystem
+* Reinforce modern frontend development using Vite
+
+## Course
+
+Professional Project – Cambridge Rentals
+
+Course:
+**React Basics and Initial Projects** (Coursera)
+
+## License
+
+This project is intended for educational purposes.
