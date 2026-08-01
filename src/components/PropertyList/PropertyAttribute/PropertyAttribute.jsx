@@ -1,10 +1,12 @@
 import "./PropertyAttribute.css"
 
-const PropertyAttribute = () => {
-    return (
-        <div>
+const PropertyAttribute = ({text, color = "#444"}) => {
 
-        </div>
+    const style = {color}
+    return (
+        <p style = {style} className="property-attribute">
+            {text}
+        </p>
     )
  }
 

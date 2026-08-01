@@ -6,7 +6,6 @@ const PropertyImage = ({image, children}) => {
         style={{backgroundImage: `url(${image})`}}
         className="property-image"
         >
-            <p>image: {image}</p>
             {children}
         </div>
     )
