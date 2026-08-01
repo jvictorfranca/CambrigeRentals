@@ -1,0 +1,9 @@
+.property-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 1px 1px lightgray;
+    margin-bottom: 10px;
+}

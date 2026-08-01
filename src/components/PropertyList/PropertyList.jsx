@@ -1,10 +1,12 @@
 import Property from "./Property/Property"
 import "./PropertyList.css"
 
-const PropertyList = () => {
+const PropertyList = ({properties}) => {
     return (
-        <div>
-            <Property></Property>
+        <div className="property-list">
+           {properties.map((property) => (
+            <Property {...property} key={property.id}/>
+           ))}
         </div>
     )
  }
