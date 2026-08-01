@@ -2,8 +2,8 @@ import "./PropertyBanner.css"
 
 const PropertyBanner = () => {
     return (
-        <div>
-
+        <div className="banner">
+            Let Agreed
         </div>
     )
  }

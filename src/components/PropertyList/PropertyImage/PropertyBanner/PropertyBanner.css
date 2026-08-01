@@ -1,0 +1,10 @@
+.banner{
+    color: white;
+    background-color: rgba(255,0,0,0.9);
+    font-weight: bold;
+    padding: 5px 35px;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 25px;
+    left: -40px
+}

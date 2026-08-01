@@ -1,0 +1,10 @@
+.property-type-label {
+    background-color: rgba(44,222,182,0.9);
+    color: #ffffff;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+    right: 10px;
+    border-radius: 4px;
+
+}
